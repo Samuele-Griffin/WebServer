@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+{{> head }}
+
+<body style="background-image: url(./../assets/backgroundf.jpg); background-repeat: no-repeat; background-size: cover;">
+    {{> navbar }}
+    <div class="container mb-5 pt-5 text-center text-white">
+        <div class="jumbotron">
+            <h1 class="display-4">Hola, {{ nombre }} </h1>
+            <hr class="my-4">
+            <p> Vea algunos gifs animados</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="/gifs" role="button"> Ver Gifs </a>
+            </p>
+        </div>
+    </div>
+    {{> footer }}
+    {{> script }}
+</body>
+</html>

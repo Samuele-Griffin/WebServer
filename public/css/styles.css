@@ -1,0 +1,12 @@
+footer {
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.image {
+    width: 32px;
+    height: 32px;
+}
